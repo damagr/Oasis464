@@ -11,7 +11,6 @@ export default class LoginScreen extends Component {
         return (
             <View style={style.container}>
                 <ScrollView>
-
                     <Logo style={style.logo}/>
                     <View style={{flex: 1, justifyContent: 'center'}}>
                         <TouchableOpacity style={style.buttonLogin}>
