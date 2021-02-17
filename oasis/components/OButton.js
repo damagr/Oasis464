@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import React, {Component} from 'react';
+import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 
 export class OButton extends Component {
     render() {
         return (
             <View>
                 <TouchableOpacity style={styles.button}>
-                    <Text style={styles.text}>this.props.text</Text>
+                    <Text style={styles.text}>{this.props.text}</Text>
                 </TouchableOpacity>
             </View>
         );
@@ -22,5 +22,5 @@ const styles = StyleSheet.create({
     },
     text: {
         color: 'black',
-    }
+    },
 });
