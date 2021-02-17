@@ -2,7 +2,7 @@ import 'react-native-gesture-handler';
 import React, { Component } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { LogginScreen } from '../screens/LoginScreen';
+import LoggingScreen from '../screens/LoggingScreen';
 
 const stack = createStackNavigator();
 
@@ -13,7 +13,7 @@ export default class ONavigation extends Component {
         return (
             <NavigationContainer>
                 <stack.Navigator>
-                    <stack.Screen name='LogginScreen' component={LogginScreen} />
+                    <stack.Screen name='LoggingScreen' component={LoggingScreen} />
                 </stack.Navigator>
             </NavigationContainer>
         );

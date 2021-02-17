@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
-import { Image, View } from 'react-native';
+import React, {Component} from 'react';
+import {Image} from 'react-native';
 
-const style = require('./OStyles');
-
-export class Logo extends Component {
+export class OLogo extends Component {
     render() {
         return (
-            <View style={style.logo}>
-                <Image source={require('../assets/Logo.png')} />
-            </View>
+            <Image source={require('../assets/Logo.png')}/>
         );
     }
 }

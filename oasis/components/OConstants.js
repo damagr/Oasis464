@@ -1,1 +1,1 @@
-const style = require('../components/OStyles');
+export const style = require('../components/OStyles');
